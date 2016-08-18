@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>jquery.area</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<script src="jquery.min.js"></script>
+<script src="../jquery.area.js"></script>
+<script>
+(function($) {
+    $(function() {
+        var defalutOptions = {
+            cityClass: '.city',
+            districtClass: '.district',
+            inputCode: '.code',
+            inputText: '.text'
+        };
+        $('.province').area(defalutOptions);
+    });
+})(jQuery);
+</script>
+</head>
+
+<body>
+<select name="province" class="province"></select>
+<select name="city" class="city"></select>
+<select name="district" class="district"></select>
+<input type="hidden" name="area_code" class="code">
+<input type="hidden" name="area_value" class="text">
+</body>
+</html>
