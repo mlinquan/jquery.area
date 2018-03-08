@@ -2,7 +2,7 @@
 
 Chinese provinces and cities triple action plugin(jQuery).
 
-数据来源：<a href="http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201703/t20170310_1471429.html" target="_blank">最新县及县以上行政区划代码（截止2016年7月31日）</a>
+数据来源：<a href="http://www.mca.gov.cn/article/sj/tjbz/a/2017/201801/201801151447.html" target="_blank">2017年11月中华人民共和国县以上行政区划代码（最新县及县以上行政区划代码）</a>
 
 ## Usage
 ### html
